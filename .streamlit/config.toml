@@ -1,0 +1,15 @@
+#[server]
+#headless = true
+#port = 8501
+
+[theme]
+primaryColor = "#caa065"  # couleur principale (dorer légèrement plus lumineux)
+backgroundColor = "#ffffff"  # fond blanc pour un contraste plus doux
+secondaryBackgroundColor = "#bc935e"  # fond secondaire (un jaune clair mais moins intense)
+textColor = "#040233"  # couleur du texte (bleu foncé)
+
+[boutons]
+couleur_debut = "#ff7e5f"  # Dégradé de début
+couleur_fin = "#feb47b"    # Dégradé de fin
+texte_bouton_1 = "Cliquez ici"
+texte_bouton_2 = "Explorez maintenant"
