@@ -29,10 +29,10 @@ def color_cells(val):
 def get_db_connection():
     try:
         conn = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password=os.getenv("DB_PASSWORD", "YDaoui2303"),
-            database="Accorhotels_cube_DB"
+            host="10.10.@@@@@",
+            user="********",
+            password=os.getenv("DB_PASSWORD", "******"),
+            database="@@@@@@@@@@@@@@@"
         )
         return conn
     except mysql.connector.Error as err:
