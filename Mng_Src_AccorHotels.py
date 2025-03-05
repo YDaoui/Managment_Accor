@@ -105,7 +105,7 @@ def main():
         col1, col2 = st.columns([1, 2])
 
         with col1:
-            display_logo(os.path.join("Images", "AC.png"), width=200)
+            display_logo(os.path.join("Images", "AC1.png"), width=200)
 
         with col2:
             #st.subheader("Page de connexion")

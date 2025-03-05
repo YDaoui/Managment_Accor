@@ -168,7 +168,7 @@ def retards_Page():
     # Afficher le logo de l'entreprise
     col1, col2 = st.columns([1, 5])
     with col1:
-        display_logo(os.path.join("Images", "AC.png"), width=160)
+        display_logo(os.path.join("Images", "AC1.png"), width=160)
     with col2:
         # Titre dans un cadre avec la couleur des boutons
         st.markdown('<div class="custom-title">Retards Non Justifiés </div>', unsafe_allow_html=True)
